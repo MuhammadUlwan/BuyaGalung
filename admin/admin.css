@@ -1,0 +1,182 @@
+/* Admin */
+
+/* menu */
+.categoryForm {
+    margin-bottom: 50px;
+}
+
+.menu-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.edit-icon, .delete-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* Tambahkan CSS untuk warna ikon pensil dan sampah */
+.edit-icon {
+    background-color: #11A100;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: -200px;
+    font-size: 20px;
+}
+
+.delete-icon {
+    background-color: #FF0000;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.add-menu {
+    position: relative;
+    left: 10px;
+    background-color: #11A100;
+    color: white;
+    padding: 10px 20px;
+    border: 4A1260;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* tambah */
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #11A100;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#batalBtn {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+/* edit */
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #11A100;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+
+.cancel {
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    margin-right: 5px; /* Berikan jarak agar tidak terlalu rapat */
+    text-decoration: none; /* Hilangkan garis bawah pada tautan */
+}
+
+/* Transaksi */
+table {
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: white; /* Warna latar belakang merah */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4A1260; /* Warna latar belakang merah muda pada header */
+    color: white;
+}
+
+.verifikasi,
+.tolak,
+.terima {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
+.verifikasi .terima{
+    background-color: #11A100;
+    color: white;
+}
+
+.tolak {
+    background-color: #FF0000;
+    color: white;
+    }
+    
